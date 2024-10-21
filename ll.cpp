@@ -1,22 +1,24 @@
-#include<iostream>
-using namespace std ;
-
-class node {
-    public :
-    int data ;
-    node *next ;
-    node(int value)
+#include <iostream>
+using namespace std;
+class node
+{
+public:
+    int data;
+    node *next;
+    node(int data)
     {
-        data = value;
-        next = NULL;
+        this->data = data;
+        this->next = NULL;
     }
 };
+void print(node* head){
+    
+}
 
 int main()
 {
-  node *head ;
-  head = new node(6);
-  cout<<head->data<<endl;
-  cout<<head->next<<endl;
-    return 0;
+    node *first = new node(10);
+    node *head = first;
+    node *tail = first;
+    // cout<<first -> data;
 }

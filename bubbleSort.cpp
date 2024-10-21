@@ -19,7 +19,7 @@ void bubbleSort(int arr[] , int size){
 int main ()
 {
   int arr[5] = { 5,2,6,3,4};
-    bubbleSort(arr , 5);
+  bubbleSort(arr , 5);
   for (int i = 0; i < 5; i++)
   {
     cout<<arr[i]<<" ";
